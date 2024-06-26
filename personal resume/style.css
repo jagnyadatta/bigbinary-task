@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(4, 9, 17, 0.856);
+}
+header{
+    width: 800px;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    color: white;
+    line-height: 40px;
+    align-items: flex-start;
+}
+header .tophead{
+    font-size: 15px;
+    color: orange;
+}
+header h1{
+    font-size: 40px;
+}
+main{
+    width: 800px;
+    margin-top: 30px;
+    color: white;
+}
+main h4{
+    font-size: 20px;
+}
+main .work{
+    /* border:1px solid red; */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgb(36, 67, 77);
+    display: flex;
+    height: 160px;
+    margin-top: 20px;
+}
+.work img{
+    width: 170px;
+    height: 160px;
+}
+.work .Disc-box{
+    padding: 20px;
+    /* line-height: 30px; */
+}
+.work .Disc-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.work .Disc-box p{
+    margin-bottom: 20px;
+}
+.work .Disc-box a{
+    color: orange;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 25px;
+    position: relative;
+    left: 45%;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: rgba(16, 27, 44, 0.856);
+    cursor: pointer;
+}
+
+/* -------writing Section --------- */
+.writing{
+    margin-top: 40px;
+}
+.writing h4{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container .card{
+    width: 380px;
+    height: 250px;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+    background-color: rgb(36, 67, 77);
+}
+.container .card h5{
+    font-size: 20px;
+}
+.container .card .prof{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+.container .card .prof img{
+    width: 30px;
+    border-radius: 50%;
+}
+.container .card p{
+    margin-top: 5px;
+}
+
+/* ---------Get in Touch Section----------  */
+.gettouch{
+    margin-top: 40px;
+}
+.gettouch h1{
+    margin-bottom: 10px;
+}
+.gettouch p{
+    font-size: 20px;
+}
+
+/*------------- Siderbar Section------------  */
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 180px;
+    height: 100vh;
+    border: 1px solid rgb(36, 67, 77);
+}
+.topsidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(36, 67, 77);
+    gap: 10px;
+}
+.topsidebar img{
+    width: 80px;
+    border-radius: 50%;
+}
+.midsidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midsidebar .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 5px;
+}
+.midsidebar .links a{
+    width: 100%;
+    color: white;
+    /* border: 1px solid red; */
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.midsidebar .links a.active{
+    background-color: rgb(36, 67, 77);
+}
+.midsidebar .links a:hover{
+    background-color: rgb(36, 67, 77);
+}
+.midsidebar .icons{
+    margin-top: 60px;
+}
+.midsidebar .icons ul{
+    list-style: none;
+    font-size: 29px;
+}
+.midsidebar .icons ul li{
+    margin-top: 10px;
+}
+.midsidebar .icons ul li a{
+    color: white;
+}
+
+
+/*----------- Footer Section ---------------- */
+footer{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    gap: 20px;
+}
+footer ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-decoration: underline;
+}
+footer ul li a{
+    color: orange;
+}
